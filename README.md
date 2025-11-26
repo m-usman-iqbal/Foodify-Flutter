@@ -1,4 +1,4 @@
-# burger
+# Foodify
 
 A new Flutter project.
 
