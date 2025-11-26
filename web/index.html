@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="$FLUTTER_BASE_HREF" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="burger" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>burger</title>
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- 🔥 Add your Firebase config here -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-analytics.js";
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBUFjscwsjTLsj6FYkmwu0ZyT8a3eAjNLs",
+        authDomain: "flutter-bur.firebaseapp.com",
+        projectId: "flutter-bur",
+        storageBucket: "flutter-bur.firebasestorage.app",
+        messagingSenderId: "373424854295",
+        appId: "1:373424854295:web:8fe787cdd971601d449352",
+        measurementId: "G-6TJKHT4CYE",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </head>
+  <body>
+    <!-- Load Flutter -->
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
+</html>
